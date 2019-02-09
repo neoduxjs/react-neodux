@@ -1,0 +1,38 @@
+{
+  "name": "react-neodux",
+  "version": "0.0.1",
+  "description": "React bindings for Neodux",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "rimraf ./dist && rollup -c",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neoduxjs/react-neodux.git"
+  },
+  "keywords": [],
+  "author": "Vincent Cheung <hello@mynameisvincent.com> (https://github.com/davinche)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neoduxjs/react-neodux/issues"
+  },
+  "homepage": "https://github.com/neoduxjs/react-neodux#readme",
+  "devDependencies": {
+    "@types/react": "^16.8.2",
+    "jest": "^24.1.0",
+    "rifraf": "^2.0.3",
+    "rollup": "^1.1.2",
+    "rollup-plugin-typescript2": "^0.19.2",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "neodux": "0.0.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  }
+}
